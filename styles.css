@@ -142,88 +142,44 @@ body{
     margin: 5em 3em;
 }
 
-@media(max-width: 1227px) {
-
-    body{
-        border: 8px solid var(--botao-Azul);
-        border-radius: 8px;
-
+@media screen and (max-width: 768px) {
+    .Container{
+        display: block;
+        background-image: none;
     }
 
     .Principal{
         background-image: url(img/code.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
-         display: flex;
-        justify-content: start;
-        text-align: center;
-    }
-
-    .Container{
-        border-bottom: 4px dashed var(--botao-Azul);
-        height: 100vh;
-        display: flex;
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .Container__Caixa{
-        height: 8em;
-        object-fit: cover;
-        padding: 2em;
-        margin: 0%;
     }
 
     .Container__Imagem{
-        width: 10em;
-        object-fit: cover;
+        width: 50vw;
+    }
+
+    .Container__Caixa{
+        
+        padding:  2em;
+        margin: 0;
     }
 
     .Secundario{
-        display: flex;
-        align-items: center;
-        align-items: center;
-        margin: 0.1em;
-    }
-
-    .Container__Descricao{
-        padding: 1em;
-    }
-    
-    .Secundario__Imagem{
-        width: 90%;
-    }
-
-    .Dispositivos{
+        margin: 0;
         text-align: center;
-
     }
 
-    .Dispositivos__Titulo{
-        margin-top: 2em;
+    .Secundario__Imagem{
+        width: 50vw;
     }
 
     .dispositivos__Lista{
-        display: flex;
-        flex-direction: column;
-        list-style-type: none;
-        margin-bottom: 9em;
+        display: block;
     }
 
     .Rodape__Lista{
-        text-align: start;
-        display: flex;
-        flex-direction: column;
-        list-style-type: none;
-        margin-top: 1em;
+        display: block;
     }
-
-    .Rodape {
-        text-align: center;
-        margin: 4em 2em;
-    }
-
-    
     
 }
 
